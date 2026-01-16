@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+*.manifest
+*.spec
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# PyInstaller
+*.spec
+build/
+dist/
+output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+error.log
+output.log
+
+# Test files
+test_*.py
+*_test.py
+*_debug.py
+
+# Build files
+*.bat
+*.exe
+*.dll
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Documentation (keep only essential)
+DEPLOYMENT_SUMMARY.md
+DISTRIBUTION_GUIDE.md
+EASY_BUILD_GUIDE.md
+FINAL_SOLUTION.md
+BUILD_README.txt
+QUICK_START_CHECKLIST.md
+ANALYSIS_SUMMARY.md
+FIXES_APPLIED.md
+build_*.py
+installer_script.iss
+system_tray_app.py
+
+# Keep these files (don't ignore)
+!README.md
+!USER_GUIDE.md
+!GESTURE_REFERENCE.md
+!requirements.txt
+!.gitignore
