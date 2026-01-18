@@ -31,28 +31,6 @@ Control your computer using hand gestures! VirtuaMouse uses your webcam and AI-p
 - Webcam
 - Windows/macOS/Linux
 
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/VirtuaMouse.git
-cd VirtuaMouse
-```
-
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Download MediaPipe model** (if not included)
-- Download from: [MediaPipe Hand Landmarker](https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task)
-- Place in: `models/hand_landmarker.task`
-
-4. **Run the application**
-```bash
-python main.py
-```
-
 ## 📖 Usage
 
 1. Launch the application
@@ -69,14 +47,6 @@ For detailed gesture instructions, see [GESTURE_REFERENCE.md](GESTURE_REFERENCE.
 - **Presentations**: Control slides without touching keyboard
 - **Fun**: Futuristic way to interact with your PC
 
-## 🛠️ Configuration
-
-Edit `config.py` to customize:
-- Camera settings
-- Gesture sensitivity
-- Mouse smoothing
-- Visual appearance
-- Keyboard shortcuts
 
 ## 📁 Project Structure
 
@@ -116,16 +86,6 @@ VirtuaMouse/
 pip install -r requirements.txt --upgrade
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -136,11 +96,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [OpenCV](https://opencv.org/) for computer vision
 - [PyAutoGUI](https://pyautogui.readthedocs.io/) for system control
 
-## 📧 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/yourusername/VirtuaMouse](https://github.com/yourusername/VirtuaMouse)
 
 ## ⭐ Star History
 
